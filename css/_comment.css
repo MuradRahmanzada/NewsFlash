@@ -1,0 +1,51 @@
+.comments .comment-slider .comment-item {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  transition: 0.5s;
+}
+
+.comments .comment-slider .comment-item-container {
+  background-color: #ffffff;
+}
+
+.comments .comment-slider .comment-item .comment-content h4 {
+  color: #212353;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.comments .comment-slider .comment-item .comment-content a {
+  display: block;
+  font-size: 14px;
+  color: #9c69e2;
+  margin-bottom: 20px;
+}
+
+.comments .comment-slider .comment-item .comment-content p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #4b5d68;
+}
+
+@media screen and (min-width: 1024px) {
+  .comments .comment-slider .comment-item.swiper-slide-active {
+    width: 645px;
+  }
+
+  .comments .comment-slider .comment-item-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    padding: 50px 25px;
+  }
+  .comments .comment-slider .comment-item .comment-content,
+  .comments .comment-slider .comment-item .comment-image {
+    padding-left: 15px;
+  }
+
+  .comments .comment-slider .comment-item .comment-content {
+    flex: 1 0 0;
+  }
+}

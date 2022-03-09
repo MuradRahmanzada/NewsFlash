@@ -1,0 +1,64 @@
+
+/* @container*/
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-large{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+/* Columns*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.column {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.flex-fill {
+    flex: 1 0 0 ;
+    max-width: 100%;
+}
+
+.flex-2 {
+    flex: 0 0 calc(100% / 2);
+    max-width: calc(100% / 2);
+}
+
+/* Justify */
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* Align-center*/
+
+.align-center {
+    align-items: center;
+}
+
+@media screen and (max-width: 1024) {
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .column {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .flex-2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

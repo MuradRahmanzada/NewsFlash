@@ -1,0 +1,44 @@
+button, 
+.button {
+	 border-radius: 50px;
+	 padding: 17px 29px;
+}
+
+.icon-button {
+	 display: flex;
+	 align-items: center;
+}
+ 
+.icon-button span {
+	 padding-right: 1rem;
+}
+ 
+.white-button {
+	 box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+	 background-color: #fff;
+	 color: #213353;
+	 font-size: 16px;
+	 font-weight: 900;
+}
+
+.purple-button {
+	 background: #9c69e2;
+	 color: #fff;
+}
+
+
+.pink-button {
+	background-color: #f06388;
+	color: #ffffff;
+	font-weight: 900;
+}
+ 
+@media screen and (max-width: 1024) {
+	button, .button {
+		margin: 0 auto;
+	}
+
+	i {
+		display: none;
+	}
+}

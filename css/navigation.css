@@ -1,0 +1,29 @@
+.navigation .navigation-list .navigation-item .navigation-link {
+	 display: block;
+	 font-size: 1rem;
+	 transition: 0.5s;
+	 color: #4b5d68;
+	 font-weight: 500;
+}
+ .navigation .navigation-list .navigation-item:hover .navigation-link {
+	 color: #212353;
+	 font-weight: 800;
+	 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+ @media screen and (min-width: 1024px) {
+	 .navigation .navigation-list {
+		 display: flex;
+		 align-items: center;
+		 flex-wrap: wrap;
+		 margin-left: -15px;
+		 margin-right: -15px;
+	}
+	 .navigation .navigation-list .navigation-item {
+		 padding-left: 15px;
+		 padding-right: 15px;
+	}
+	 .navigation {
+		 margin-left: 120px;
+	}
+}
+ 

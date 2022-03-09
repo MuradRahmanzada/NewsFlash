@@ -1,0 +1,16 @@
+.card {
+    position: relative;
+}
+
+.card .card-header {
+    font-size: 24px;
+    color: #212353;
+    margin-bottom: 20px;
+}
+
+.card .card-body {
+    color: #485d68;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
